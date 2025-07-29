@@ -1,5 +1,13 @@
 # Day 019 - Pokemon Explorer: React API Integration & Search
 
+## Live Demo
+
+### 📱 Direct Links
+
+**[View the live Pokemon Explorer here](https://pokimon-api-project.vercel.app/)**
+
+---
+
 ## 📋 Project Overview
 
 This project demonstrates advanced React development with API integration, state management, and search functionality. We build a complete Pokemon Explorer application that fetches data from the PokeAPI, displays Pokemon cards, and provides real-time search capabilities.
