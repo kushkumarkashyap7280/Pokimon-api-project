@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Loader from './components/Loader';
-import Card from './components/Card';
+import Card from './components/Card' ;
 
 function App() {
 
