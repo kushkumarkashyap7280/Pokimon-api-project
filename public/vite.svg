@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="31.88" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 257">
+  <defs>
+    <!-- Pokemon Red Gradient -->
+    <linearGradient id="pokemonRed" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B"></stop>
+      <stop offset="50%" stop-color="#FF5252"></stop>
+      <stop offset="100%" stop-color="#D32F2F"></stop>
+    </linearGradient>
+    
+    <!-- Pokemon Yellow Gradient -->
+    <linearGradient id="pokemonYellow" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD93D"></stop>
+      <stop offset="50%" stop-color="#FFC107"></stop>
+      <stop offset="100%" stop-color="#FF9800"></stop>
+    </linearGradient>
+    
+    <!-- Pokemon Blue Gradient -->
+    <linearGradient id="pokemonBlue" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#4FC3F7"></stop>
+      <stop offset="50%" stop-color="#2196F3"></stop>
+      <stop offset="100%" stop-color="#1976D2"></stop>
+    </linearGradient>
+    
+    <!-- Pokemon Green Gradient -->
+    <linearGradient id="pokemonGreen" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#81C784"></stop>
+      <stop offset="50%" stop-color="#4CAF50"></stop>
+      <stop offset="100%" stop-color="#388E3C"></stop>
+    </linearGradient>
+    
+    <!-- Pokemon Purple Gradient -->
+    <linearGradient id="pokemonPurple" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#BA68C8"></stop>
+      <stop offset="50%" stop-color="#9C27B0"></stop>
+      <stop offset="100%" stop-color="#7B1FA2"></stop>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Pokemon Ball Shape -->
+  <circle cx="128" cy="128.5" r="120" fill="url(#pokemonRed)" stroke="#333" stroke-width="4"/>
+  
+  <!-- Pokemon Ball Center Line -->
+  <rect x="8" y="128.5" width="240" height="8" fill="#333" rx="4"/>
+  
+  <!-- Pokemon Ball Center Circle -->
+  <circle cx="128" cy="128.5" r="25" fill="url(#pokemonYellow)" stroke="#333" stroke-width="3"/>
+  
+  <!-- Pokemon Ball Inner Circle -->
+  <circle cx="128" cy="128.5" r="15" fill="url(#pokemonBlue)" stroke="#333" stroke-width="2"/>
+  
+  <!-- Pokemon Ball Inner Dot -->
+  <circle cx="128" cy="128.5" r="8" fill="url(#pokemonPurple)" stroke="#333" stroke-width="1"/>
+  
+  <!-- Pokemon Ball Top Half -->
+  <path d="M 8 8 A 120 120 0 0 1 248 128.5 L 248 136.5 A 120 120 0 0 1 8 16 Z" fill="url(#pokemonRed)" opacity="0.8"/>
+  
+  <!-- Pokemon Ball Bottom Half -->
+  <path d="M 8 241 A 120 120 0 0 1 248 128.5 L 248 120.5 A 120 120 0 0 1 8 233 Z" fill="url(#pokemonGreen)" opacity="0.8"/>
+  
+  <!-- Pokemon Ball Highlights -->
+  <circle cx="100" cy="100" r="15" fill="white" opacity="0.3"/>
+  <circle cx="156" cy="156" r="12" fill="white" opacity="0.2"/>
+  
+  <!-- Pokemon Ball Shadow -->
+  <ellipse cx="128" cy="250" rx="100" ry="20" fill="#333" opacity="0.3"/>
+</svg>
